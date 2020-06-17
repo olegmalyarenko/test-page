@@ -1,0 +1,148 @@
+.f2 {
+  height: 480px;
+
+  background: #f8f8f8;
+}
+.f2__content {
+  position: relative;
+  z-index: 2;
+}
+
+.f2__title {
+  margin-top: 0;
+  margin-left: -15%;
+  padding-top: 80px;
+
+  font-weight: bold;
+  font-size: 24px;
+  font-family: "Myriad Pro";
+  text-align: center;
+  color: #9da3d7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.f2__text {
+  font-size: 24px;
+  font-family: "Myriad Pro";
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.f2__form {
+  //z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 358px;
+  height: 275px;
+  margin-left: 24%;
+
+  background-color: #9da3d7;
+  input {
+    width: 290px;
+    height: 49px;
+  }
+}
+
+.submit__button {
+  width: 290px;
+  height: 49px;
+  margin-top: 12px;
+
+  font-size: 24px;
+  font-family: "Myriad Pro";
+  text-align: center;
+  color: #000000;
+  letter-spacing: 1px;
+
+  background-color: #ffc087;
+}
+
+
+.left-purpure__circle {
+  position: absolute;
+  top: 430px;
+  left: 350px;
+  z-index: 1;
+
+  width: 320px;
+  height: 300px;
+
+  background: #d0d4f3;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+
+   -khtml-border-radius: 50%;
+}
+
+.middle-red__circle {
+  position: absolute;
+  top: 380px;
+  left: 680px;
+  z-index: 1;
+
+  width: 300px;
+  height: 300px;
+
+  background: #f9e3d0;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+
+   -khtml-border-radius: 50%;
+}
+
+.middle-purpure__circle {
+  position: absolute;
+  top: 480px;
+  left: 1020px;
+  z-index: 1;
+
+  width: 200px;
+  height: 200px;
+
+  background: #d0d4f3;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+
+   -khtml-border-radius: 50%;
+}
+
+.rigth-red__circle {
+  position: absolute;
+  top: 250px;
+  left: 1080px;
+  z-index: 2;
+
+  width: 300px;
+  height: 300px;
+
+  background: #f9e3d0;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+
+   -khtml-border-radius: 50%;
+}
+.rigth-green__circle {
+  position: absolute;
+  top: 500px;
+  left: 1240px;
+  z-index: 1;
+
+  width: 180px;
+  height: 180px;
+
+  background: #d4e2d0;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+
+   -khtml-border-radius: 50%;
+}
