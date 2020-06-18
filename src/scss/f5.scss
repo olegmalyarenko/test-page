@@ -9,6 +9,7 @@
 }
 .offers {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
 }
@@ -241,4 +242,19 @@
   color: #0099de;
   text-decoration: underline;
   letter-spacing: 0;
+}
+
+@media (max-width:500px) {
+  .offers {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+@media all and (max-width:1400px) {
+  .calculator__icon {
+    display: none;
+  }
 }
