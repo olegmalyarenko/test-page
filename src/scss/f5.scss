@@ -1,0 +1,243 @@
+.f5__title {
+  font-weight: bold;
+  font-size: 24px;
+  font-family: "Myriad Pro";
+  text-align: center;
+  color: #9da3d7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.offers {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.offer__title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 45px;
+  font-family: "Myriad Pro";
+  text-align: right;
+  text-align: center;
+  color: #000000;
+  letter-spacing: 0;
+}
+
+.vertical-text {
+  position: absolute;
+  top: 130px;
+  left: 7%;
+
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 40px;
+  font-family: "Myriad Pro";
+  text-align: center;
+  color: #636363;
+
+  transform: rotate(90deg);
+  transform-origin: left top 0;
+}
+
+.gorisontal-text {
+  position: absolute;
+  top: 30px;
+  left: 15%;
+
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 40px;
+  font-family: "Myriad Pro";
+  text-align: center;
+  color: #636363;
+}
+.size__side {
+  position: relative;
+  img {
+    position: absolute;
+    top: 80px;
+    left: 100px;
+  }
+}
+.gorisontal-text {
+  position: absolute;
+}
+
+.calculator {
+  width: 100%;
+  height: 500px;
+  margin-bottom: 50px;
+
+  border-radius: 2%;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.size1 {
+  position: absolute;
+  top: 50px;
+
+  width: 90px;
+  height: 40px;
+
+  border-radius: 4%;
+}
+
+.sizes {
+  position: absolute;
+  top: 270px;
+  left: 4%;
+}
+
+
+.border-x {
+  position: absolute;
+  top: 20px;
+  left: 110px;
+
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 37px;
+  font-family: "Myriad Pro";
+  text-align: center;
+  color: #0099de;
+}
+
+.size2 {
+  position: absolute;
+  top: 50px;
+  left: 150px;
+
+  width: 90px;
+  height: 40px;
+
+  border-radius: 4%;
+}
+
+.size2::placeholder,
+.size1::placeholder {
+  font-size: 32px;
+  line-height: 44px;
+  font-family: "Myriad Pro";
+  text-align: center;
+  color: #5d5d5d;
+}
+
+.second-label {
+  position: absolute;
+  top: 15px;
+  left: 150px;
+
+  width: 100px;
+}
+.first-label {
+  position: absolute;
+  top: 15px;
+  left: 10px;
+
+  width: 100px;
+}
+
+///////
+
+.calculator__title {
+  padding-top: 60px;
+  padding-right: 180px;
+
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "Myriad Pro";
+  text-align: right;
+  color: #0099de;
+  letter-spacing: 1px;
+}
+
+.first-choice__title,
+.second-choice__title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 40px;
+  font-family: "Myriad Pro";
+  text-align: center;
+  color: #000000;
+}
+.row {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin-left: 45%;
+}
+
+.second-choice select {
+  width: 358px;
+  height: 45px;
+  margin-left: 40%;
+
+  font-size: 16px;
+
+  background: transparent;
+  background-color: #ffffff;
+  border: 2px solid #aeaeae;
+  border-radius: 10px;
+}
+
+.calculator__button {
+  width: 280px;
+  height: 46px;
+  margin-top: 7%;
+  margin-left: 10%;
+
+  color: white;
+  text-transform: uppercase;
+
+  background-color: #9da3d7;
+  border-radius: 10px;
+}
+
+.calculator__buttons input {
+  position: relative;
+
+  width: 280px;
+  height: 46px;
+  margin-top: 7%;
+  margin-left: 10%;
+
+  background-color: #c6c6c6;
+  border-radius: 10px;
+}
+.calculator__buttons {
+  display: flex;
+}
+
+.calculator__buttons input::placeholder {
+  font-size: 18px;
+  font-family: "Myriad Pro";
+  text-align: center;
+  color: #424242;
+  letter-spacing: 0;
+}
+
+.calculator__icon {
+  position: absolute;
+  z-index: 2;
+
+  width: 48px;
+  height: 48px;
+  margin-top: 4.8%;
+  margin-left: 6.8%;
+
+  background-color: #ffffff;
+  border: 1px black;
+  border-radius: 10px;
+}
+
+.active {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 45px;
+  font-family: "Myriad Pro";
+  text-align: right;
+  color: #0099de;
+  text-decoration: underline;
+  letter-spacing: 0;
+}
