@@ -16,14 +16,14 @@ header {
   align-items: center;
 }
 
-h1 {
+.main__title {
   font-weight: 400;
   font-size: 16px;
   color: #777777;
 }
 
-.header__text p {
-  margin-top: -20px;
+.main__text {
+  margin-top: 10px;
 
   font-size: 14px;
   color: #777777;
@@ -38,9 +38,65 @@ h1 {
   height: 106px;
 
   font-size: 40px;
-  line-height: 46px;
-  font-family: "Myriad Pro";
+  line-height: 16px;
+  font-family: myriad-pro, sans-serif;
   text-align: right;
   color: #767676;
   letter-spacing: 1px;
+}
+
+@media (min-width: 700px) and (max-width: 900px) {
+  .contacts__item {
+    font-size: 25px;
+  }
+  .main__title {
+    font-size: 15px;
+  }
+  .main__text {
+    font-size: 12px;
+  }
+  .conteiner {
+    width: 90%;
+  }
+}
+
+@media (min-width: 430px) and (max-width: 699px) {
+  .contacts__item {
+    font-size: 18px;
+  }
+  .main__title {
+    font-size: 15px;
+  }
+  .main__text {
+    font-size: 12px;
+  }
+  .conteiner {
+    width: 90%;
+  }
+}
+
+@media (min-width: 230px) and (max-width: 429px) {
+  .header__content,
+  .header__logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+  }
+  header {
+    height: 270px;
+  }
+  .contacts__item {
+    font-size: 12px;
+  }
+  .main__title {
+    font-size: 13px;
+  }
+  .main__text {
+    font-size: 12px;
+  }
+  .conteiner {
+    width: 90%;
+  }
 }

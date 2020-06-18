@@ -1,7 +1,7 @@
 .f5__title {
   font-weight: bold;
   font-size: 24px;
-  font-family: "Myriad Pro";
+  font-family: myriad-pro, sans-serif;
   text-align: center;
   color: #9da3d7;
   text-transform: uppercase;
@@ -17,7 +17,7 @@
   font-weight: bold;
   font-size: 14px;
   line-height: 45px;
-  font-family: "Myriad Pro";
+  font-family: myriad-pro, sans-serif;
   text-align: right;
   text-align: center;
   color: #000000;
@@ -32,7 +32,7 @@
   font-weight: bold;
   font-size: 22px;
   line-height: 40px;
-  font-family: "Myriad Pro";
+  font-family: myriad-pro, sans-serif;
   text-align: center;
   color: #636363;
 
@@ -48,7 +48,7 @@
   font-weight: bold;
   font-size: 22px;
   line-height: 40px;
-  font-family: "Myriad Pro";
+  font-family: myriad-pro, sans-serif;
   text-align: center;
   color: #636363;
 }
@@ -98,7 +98,7 @@
   font-weight: bold;
   font-size: 44px;
   line-height: 37px;
-  font-family: "Myriad Pro";
+  font-family: myriad-pro, sans-serif;
   text-align: center;
   color: #0099de;
 }
@@ -118,7 +118,7 @@
 .size1::placeholder {
   font-size: 32px;
   line-height: 44px;
-  font-family: "Myriad Pro";
+  font-family: myriad-pro, sans-serif;
   text-align: center;
   color: #5d5d5d;
 }
@@ -146,7 +146,7 @@
 
   font-weight: bold;
   font-size: 30px;
-  font-family: "Myriad Pro";
+  font-family: myriad-pro, sans-serif;
   text-align: right;
   color: #0099de;
   letter-spacing: 1px;
@@ -157,7 +157,7 @@
   font-weight: bold;
   font-size: 24px;
   line-height: 40px;
-  font-family: "Myriad Pro";
+  font-family: myriad-pro, sans-serif;
   text-align: center;
   color: #000000;
 }
@@ -211,7 +211,7 @@
 
 .calculator__buttons input::placeholder {
   font-size: 18px;
-  font-family: "Myriad Pro";
+  font-family: myriad-pro, sans-serif;
   text-align: center;
   color: #424242;
   letter-spacing: 0;
@@ -232,10 +232,11 @@
 }
 
 .active {
+  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 45px;
-  font-family: "Myriad Pro";
+  font-family: myriad-pro, sans-serif;
   text-align: right;
   color: #0099de;
   text-decoration: underline;
