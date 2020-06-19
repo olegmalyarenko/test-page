@@ -258,3 +258,249 @@
     display: none;
   }
 }
+
+@media (min-width:801px) and (max-width:900px) {
+  .calculator__title {
+    padding-right: 10%;
+
+    font-size: 25px;
+  }
+  .first-choice__title,
+  .second-choice__title {
+    padding-left: 15%;
+
+    font-size: 18px;
+  }
+  .second-choice select {
+    width: 30%;
+    margin-left: 50%;
+  }
+}  
+
+@media (min-width:700px) and (max-width:800px) {
+  .calculator__title {
+    padding-right: 10%;
+
+    font-size: 25px;
+  }
+  .first-choice__title,
+  .second-choice__title {
+    padding-left: 15%;
+
+    font-size: 18px;
+  }
+  .row {
+    flex-direction: column;
+    label {
+      margin-top: -15px;
+      margin-left: 20px;
+    }
+  }
+  .second-choice select {
+    width: 30%;
+  }
+  .size1,
+  .size2 {
+    width: 60px;
+  }
+  .calculator__button,
+  .calculator__buttons input {
+    width: 30%;
+  }
+}
+@media (min-width:600px) and (max-width:699px) {
+  .calculator__title {
+    padding-right: 10%;
+
+    font-size: 17px;
+  }
+  .size__side img {
+    position: absolute;
+    top: 80px;
+    left: 50px;
+  }
+  .first-choice__title,
+  .second-choice__title {
+    padding-left: 15%;
+
+    font-size: 18px;
+  }
+  .row {
+    flex-direction: column;
+    label {
+      margin-top: -15px;
+      margin-left: 20px;
+    }
+  }
+  .second-choice select {
+    width: 30%;
+    margin-left: 50%;
+  }
+  .size1,
+  .size2 {
+    width: 60px;
+  }
+  .calculator__button,
+  .calculator__buttons input {
+    width: 30%;
+  }
+  .first-choice,
+  .second-choice {
+    margin-left: 20%;
+  }
+}
+@media (min-width:400px) and (max-width:599px) {
+  .calculator {
+    height: 900px;
+  }
+  .calculator__title {
+    padding-right: 20%;
+
+    font-size: 17px;
+  }
+  .first-choice__title,
+  .second-choice__title {
+    padding-top: 10px;
+    padding-left: 15%;
+
+    font-size: 18px;
+  }
+  .row {
+    flex-direction: column;
+    label {
+      margin-top: -15px;
+      margin-left: 20px;
+    }
+  }
+  .second-choice select {
+    width: 30%;
+    margin-left: 50%;
+  }
+  .size1,
+  .size2 {
+    position: absolute;
+    top: 90px;
+
+    width: 60px;
+  }
+  .calculator__button,
+  .calculator__buttons input {
+    width: 30%;
+  }
+  .first-choice {
+    margin-top: 350px;
+    margin-left: -5%;
+  }
+  .second-choice {
+    margin-left: -5%;
+  }
+  .size__side img {
+    position: absolute;
+    top: 120px;
+    left: 150px;
+  }
+  .gorisontal-text {
+    position: absolute;
+    top: 70px;
+    left: 40%;
+  }
+  .vertical-text {
+    position: absolute;
+    top: 130px;
+    left: 34%;
+  }
+  .border-x {
+    position: absolute;
+    top: 50px;
+    left: 89px;
+  }
+  .sizes {
+    position: absolute;
+    top: 270px;
+    left: 24%;
+  }
+  .first-label,
+  .second-label {
+    top: 55px;
+  }
+}
+
+
+@media all and (max-width:399px) {
+  .calculator {
+    height: 900px;
+  }
+  .calculator__title {
+    padding-right: 10%;
+
+    font-size: 17px;
+  }
+  .first-choice__title,
+  .second-choice__title {
+    padding-top: 10px;
+    padding-left: 15%;
+
+    font-size: 18px;
+  }
+  .row {
+    flex-direction: column;
+    label {
+      margin-top: -15px;
+      margin-left: 20px;
+    }
+  }
+  .second-choice select {
+    width: 30%;
+    margin-left: 50%;
+  }
+  .size1,
+  .size2 {
+    position: absolute;
+    top: 90px;
+
+    width: 60px;
+  }
+  .calculator__button,
+  .calculator__buttons input {
+    width: 40%;
+  }
+  .first-choice {
+    margin-top: 350px;
+    margin-left: -5%;
+  }
+  .second-choice {
+    margin-left: -5%;
+  }
+  .size__side img {
+    position: absolute;
+    top: 120px;
+    left: 100px;
+  }
+  .gorisontal-text {
+    position: absolute;
+    top: 70px;
+    left: 40%;
+  }
+  .vertical-text {
+    position: absolute;
+    top: 130px;
+    left: 34%;
+  }
+  .border-x {
+    position: absolute;
+    top: 50px;
+    left: 89px;
+  }
+  .sizes {
+    position: absolute;
+    top: 270px;
+    left: 13%;
+  }
+  .first-label,
+  .second-label {
+    top: 55px;
+  }
+  .calculator__buttons input {
+    margin-left: 3%;
+  }
+}
